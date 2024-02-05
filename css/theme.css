@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat";
+	background: #f4f4f4;
+}
+
+.top-deals-sections-wrapper {
+	padding: 40px 0;
+}
+.top-deals-sections-wrapper .main-webiste-top-deals-section {
+	padding: 10px;
+	background-color: white;
+	box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.25);
+}
+.top-deals-sections-wrapper .top-deals-left-wrapper {
+	width: 100%;
+}
+.top-deals-sections-wrapper .top-deals-left-image-wrapper {
+	width: 100%;
+}
+.top-deals-sections-wrapper .top-deals-left-image-wrapper img {
+	width: 100%;
+}
+.top-deals-sections-wrapper .row {
+	align-items: flex-start;
+}
+.top-deals-sections-wrapper .top-deals-topbar-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.top-deals-sections-wrapper .top-deals-topbar-wrapper h6 {
+	margin-bottom: 0;
+}
+.top-deals-sections-wrapper .top-deals-topbar-wrapper a {
+	color: white;
+	background-color: #81c115;
+	font-size: 13px;
+	text-decoration: none;
+	padding: 7px 25px;
+	margin-right: 20px;
+}
+.top-deals-sections-wrapper .top-deals-topbar-wrapper i {
+	padding: 5px 12px;
+	background-color: #f7f7f7;
+	cursor: pointer;
+}
+.top-deals-sections-wrapper .top-deals-product-display-content-wrapper {
+	color: unset;
+	text-decoration: unset;
+}
+.top-deals-sections-wrapper .top-deals-product-display-image-wrapper {
+	display: grid;
+	place-items: center;
+}
+.top-deals-sections-wrapper .top-deals-product-display-image-inner {
+	width: 120px;
+}
+.top-deals-sections-wrapper .top-deals-product-display-image-inner img {
+	width: 100%;
+}
+.top-deals-sections-wrapper .top-deals-product-display-description h6 {
+	margin-top: 10px;
+	font-size: 13px;
+	text-align: center;
+	color: black;
+}
+.top-deals-sections-wrapper .top-deals-product-display-description p {
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+}
+.top-deals-sections-wrapper .top-deals-product-display-description p span {
+	color: #eb5757;
+	text-decoration: line-through;
+}
+.top-deals-sections-wrapper .top-deals-product-display-description .all-star {
+	display: flex;
+	justify-content: center;
+}
+.top-deals-sections-wrapper .border-none {
+	border-right: none;
+}
+.top-deals-sections-wrapper .row .col-lg-9 .row a {
+	color: black;
+	text-decoration: none;
+}
